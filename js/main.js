@@ -30,9 +30,21 @@
 //图片存储
       this.aImg = [];
       this.timer = null;
+      //水滴4个阶段的图片
       this.imgSrc = ['../image/0.png','../image/1.png','../image/2.png','../image/3.png','../image/4.png']
+      //水滴点击弹出的走向图片
+      this.dropImgSrc = ['../image/u.png','../image/d.png','../image/l.png','../image/r.png'];
       //水滴行数
       this.row = 6;
-      this.col = 6;
       //水滴列数
+      this.col = 6;      
       }
+
+      Game.prototype = {
+          say:function(){
+
+          }
+      }
+
+
+      
